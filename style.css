@@ -1,0 +1,247 @@
+@keyframes card {
+    from {
+        box-shadow: 0px 0px 5px #00000055;
+        background-color: #fff;
+        color: #000;
+        border-radius: 0;
+    }
+    to {
+        box-shadow: none;
+        background-color: #2e6d80;
+        color: #fff;
+        border-radius: 5px;
+    }
+  }
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    margin: 20px auto 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid #000;
+    width: 80svw;
+}
+
+header img{
+    height: 100px;
+    width: 100px;
+}
+.post main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+a {
+ color: #2e6d80;
+ font-weight: 600;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    min-height: 10dvh;
+    min-width: 20dvw;
+    max-width: 60dvw;
+    margin: 20px auto;
+    
+    /* border: 1px solid; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #00000055;
+}
+@media only screen and (max-width: 542px) {
+    article {
+      max-width: 90%;
+    }
+  }
+  
+.job-top{
+    background: #2e6d80;
+    padding: 40px 0;
+    border-radius: 10px 10px 0 0;
+    color: #fff;
+    width: 100%;
+}
+.job-top > *{
+    margin: 30px 0;
+}
+.job-top h2{
+    font-size: 32px;
+}
+.sub-info{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 20px;
+    justify-content: center;
+}
+
+.j-d-titles{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.apply{
+    padding: 10px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.a-top{
+    font-weight: 600;
+    background-color: #fff;
+    color: #000;
+}
+.a-bottom{
+    background-color: #2e6d80;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.job-content{
+    text-align: start;
+    max-width: 72ch;
+    word-break: break-all;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0 40px;
+}
+
+
+
+
+/* Dashboard specific CSS */
+.dashboard-header{
+    border: none;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    padding: 100px 20px;
+    background: #2e6d80;
+    color: #fff;
+
+}
+.hero p{
+    width: min(72ch, 80%);
+    font-size: 20px;
+    line-height: 32px;
+    word-spacing: 2px;
+}
+.jobs-list-cont{
+    padding: 40px 20px;
+    width: 80%;
+    margin: 40px auto;
+}
+.job-per-dep{
+    padding: 0 20px;
+    margin: 20px auto;
+}
+.job-list-wrap{
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 50px;
+    justify-content: center;
+}
+.job-card{
+    box-shadow: 0px 0px 5px #00000077;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    color: #000;
+    font-weight: 100;
+}
+.job-card:hover{
+    box-shadow: none;
+    border-radius: 5px;
+    background-color: #2e6d80;
+    color: #fff;
+    cursor: pointer;
+    transition: all .2s ;
+}
+.job-card-info{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+
+}
+.job-card-info > *{
+    white-space: break-space;
+    /* border-bottom: 1px solid; */
+    padding-left: 5px;
+}
+.job-card h4{
+    font-size: 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+
+}
+.job-list-wrap a{
+    text-decoration: none;
+}
+.date-p{
+    display: flex;
+    flex-direction: column;
+}
+.no-job{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+
+
+/* Footer CSS */
+footer{
+    padding: 20px 40px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+footer a{
+    color: aquamarine;
+}
+.copywrite{
+    font-size: 13px;
+    color: #ccc;
+
+}
+
+
+.not-found{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    width: 100dvw;
+    height: 100dvh;
+}

@@ -1,0 +1,11 @@
+{
+  "name": "jobpage",
+  "version": "1.0.0",
+  "description": "this repo will manage the job page page, which companies can display on their website to share the job description and informations with applicants",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohamed Kone",
+  "license": "ISC"
+}
