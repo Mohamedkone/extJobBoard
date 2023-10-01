@@ -97,7 +97,6 @@ const fetchDataAndPopulate = async() =>{
       
     }
     catch(error) {
-      console.error('Error fetching data:', error);
     };
 }
 // Call the function to fetch and populate data when the page loads
