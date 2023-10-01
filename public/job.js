@@ -13,7 +13,6 @@ function getUrlParameters() {
 
 // Define the URL of your API endpoint
 const apiUrl = `https://arianodelb4.herokuapp.com/jobs/${urlParams[1]}/${urlParams[0]}`; // Replace with your API URL
-console.log(urlParams)
 // Function to fetch data and update HTML elements
 const fetchDataAndPopulate = async() =>{
     try{

@@ -4,7 +4,6 @@
 //         const jobData = await fetch("https://arianodelb4.herokuapp.com/jobs/374360570235");
 //         const jobInfo = await jobData.json();
 //         const compInfo = await compData.json();
-//         console.log(compInfo.name);
 //         companyTitle.innerText = compInfo.name
         
 // })
