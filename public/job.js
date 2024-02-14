@@ -69,7 +69,7 @@ const fetchDataAndPopulate = async() =>{
                     </div>
                 </div>
                 </div>
-                <a class="apply a-top" href="https://ariaapply.netlify.app/?apply=${data.id}" target="_blank"> Apply to this job </a>
+                <a class="apply a-top" href="https://ariaapply.netlify.app/?apply=${data.id}&c=${companyData.id}" target="_blank"> Apply to this job </a>
             </section>
             <section class="job-content">
                 ${data.jobDescription}
